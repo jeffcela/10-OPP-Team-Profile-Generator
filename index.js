@@ -1,6 +1,6 @@
-const Manager = require("./lib/Manager");
-const Engineer = require("./lib/Engineer");
-const Intern = require("./lib/Intern");
+const Manager = require("./main/lib/Manager");
+const Engineer = require("./main/lib/Engineer");
+const Intern = require("./main/lib/Intern");
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
@@ -8,7 +8,7 @@ const fs = require("fs");
 const OUTPUT_DIR = path.resolve(__dirname, "dist")
 const outputPath = path.join(OUTPUT_DIR, "index.html");
 
-const render = require("./src/page-template.js");
+const render = require("./main/src/page-template.js");
 
 const teamMembers = [];
 const idArray = [];
@@ -198,6 +198,7 @@ function appMenu() {
             } else {
               return true;
             }
+
           }
           return "Please enter a positive number greater than zero.";
         }
