@@ -49,7 +49,8 @@ Project Repository [Link](https://github.com/jeffcela/10-OPP-Team-Profile-Genera
 
 Please direct any questions to jeffcela@gmail.com
 
-#Contributing
+# Contributing
+
 Please refer to each project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
 
 1. Fork the repo on GitHub
